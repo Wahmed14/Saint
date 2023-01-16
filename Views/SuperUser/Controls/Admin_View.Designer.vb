@@ -22,57 +22,129 @@ Partial Class Admin_View
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel1.SuspendLayout()
+        Me.P_ADMIN = New Guna.UI2.WinForms.Guna2Panel()
+        Me.BT_UES = New Guna.UI2.WinForms.Guna2Button()
+        Me.BT_FACULTIES = New Guna.UI2.WinForms.Guna2Button()
+        Me.BT_ECUES = New Guna.UI2.WinForms.Guna2Button()
+        Me.BT_INSTITUTES = New Guna.UI2.WinForms.Guna2Button()
+        Me.BT_EMPLOYEES = New Guna.UI2.WinForms.Guna2Button()
+        Me.BT_USERS = New Guna.UI2.WinForms.Guna2Button()
         Me.SuspendLayout()
         '
-        'Guna2Panel1
+        'P_ADMIN
         '
-        Me.Guna2Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel1)
-        Me.Guna2Panel1.Location = New System.Drawing.Point(0, 1)
-        Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(1033, 51)
-        Me.Guna2Panel1.TabIndex = 0
+        Me.P_ADMIN.Location = New System.Drawing.Point(8, 154)
+        Me.P_ADMIN.Name = "P_ADMIN"
+        Me.P_ADMIN.Size = New System.Drawing.Size(1350, 592)
+        Me.P_ADMIN.TabIndex = 0
         '
-        'Guna2HtmlLabel1
+        'BT_UES
         '
-        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Times New Roman", 20.3!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(12, 11)
-        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(363, 33)
-        Me.Guna2HtmlLabel1.TabIndex = 0
-        Me.Guna2HtmlLabel1.Text = "GESTION DES EMPLOYEES"
+        Me.BT_UES.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.BT_UES.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.BT_UES.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.BT_UES.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.BT_UES.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BT_UES.ForeColor = System.Drawing.Color.White
+        Me.BT_UES.Location = New System.Drawing.Point(686, 2)
+        Me.BT_UES.Name = "BT_UES"
+        Me.BT_UES.Size = New System.Drawing.Size(220, 146)
+        Me.BT_UES.TabIndex = 1
+        Me.BT_UES.Text = "UES"
         '
-        'Guna2Panel2
+        'BT_FACULTIES
         '
-        Me.Guna2Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Guna2Panel2.Location = New System.Drawing.Point(0, 51)
-        Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(220, 399)
-        Me.Guna2Panel2.TabIndex = 1
+        Me.BT_FACULTIES.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.BT_FACULTIES.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.BT_FACULTIES.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.BT_FACULTIES.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.BT_FACULTIES.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BT_FACULTIES.ForeColor = System.Drawing.Color.White
+        Me.BT_FACULTIES.Location = New System.Drawing.Point(460, 2)
+        Me.BT_FACULTIES.Name = "BT_FACULTIES"
+        Me.BT_FACULTIES.Size = New System.Drawing.Size(220, 146)
+        Me.BT_FACULTIES.TabIndex = 2
+        Me.BT_FACULTIES.Text = "FACULTES"
+        '
+        'BT_ECUES
+        '
+        Me.BT_ECUES.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.BT_ECUES.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.BT_ECUES.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.BT_ECUES.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.BT_ECUES.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BT_ECUES.ForeColor = System.Drawing.Color.White
+        Me.BT_ECUES.Location = New System.Drawing.Point(912, 2)
+        Me.BT_ECUES.Name = "BT_ECUES"
+        Me.BT_ECUES.Size = New System.Drawing.Size(220, 146)
+        Me.BT_ECUES.TabIndex = 3
+        Me.BT_ECUES.Text = "ECUES"
+        '
+        'BT_INSTITUTES
+        '
+        Me.BT_INSTITUTES.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.BT_INSTITUTES.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.BT_INSTITUTES.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.BT_INSTITUTES.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.BT_INSTITUTES.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BT_INSTITUTES.ForeColor = System.Drawing.Color.White
+        Me.BT_INSTITUTES.Location = New System.Drawing.Point(234, 2)
+        Me.BT_INSTITUTES.Name = "BT_INSTITUTES"
+        Me.BT_INSTITUTES.Size = New System.Drawing.Size(220, 146)
+        Me.BT_INSTITUTES.TabIndex = 4
+        Me.BT_INSTITUTES.Text = "INSTITUTS"
+        '
+        'BT_EMPLOYEES
+        '
+        Me.BT_EMPLOYEES.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.BT_EMPLOYEES.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.BT_EMPLOYEES.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.BT_EMPLOYEES.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.BT_EMPLOYEES.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BT_EMPLOYEES.ForeColor = System.Drawing.Color.White
+        Me.BT_EMPLOYEES.Location = New System.Drawing.Point(8, 2)
+        Me.BT_EMPLOYEES.Name = "BT_EMPLOYEES"
+        Me.BT_EMPLOYEES.Size = New System.Drawing.Size(220, 146)
+        Me.BT_EMPLOYEES.TabIndex = 5
+        Me.BT_EMPLOYEES.Text = "EMPLOYEES"
+        '
+        'BT_USERS
+        '
+        Me.BT_USERS.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.BT_USERS.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.BT_USERS.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.BT_USERS.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.BT_USERS.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BT_USERS.ForeColor = System.Drawing.Color.White
+        Me.BT_USERS.Location = New System.Drawing.Point(1138, 2)
+        Me.BT_USERS.Name = "BT_USERS"
+        Me.BT_USERS.Size = New System.Drawing.Size(220, 146)
+        Me.BT_USERS.TabIndex = 6
+        Me.BT_USERS.Text = "UTILISATEURS"
         '
         'Admin_View
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1303, 450)
-        Me.Controls.Add(Me.Guna2Panel2)
-        Me.Controls.Add(Me.Guna2Panel1)
+        Me.ClientSize = New System.Drawing.Size(1370, 749)
+        Me.Controls.Add(Me.BT_USERS)
+        Me.Controls.Add(Me.BT_EMPLOYEES)
+        Me.Controls.Add(Me.BT_INSTITUTES)
+        Me.Controls.Add(Me.BT_ECUES)
+        Me.Controls.Add(Me.BT_FACULTIES)
+        Me.Controls.Add(Me.BT_UES)
+        Me.Controls.Add(Me.P_ADMIN)
         Me.Name = "Admin_View"
         Me.Text = "Admin_View"
-        Me.Guna2Panel1.ResumeLayout(False)
-        Me.Guna2Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents P_ADMIN As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents BT_UES As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents BT_FACULTIES As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents BT_ECUES As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents BT_INSTITUTES As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents BT_EMPLOYEES As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents BT_USERS As Guna.UI2.WinForms.Guna2Button
 End Class

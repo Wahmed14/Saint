@@ -3,7 +3,6 @@ C:\Users\PC\source\repos\Saint\obj\Debug\Saint.vbproj.SuggestedBindingRedirects.
 C:\Users\PC\source\repos\Saint\obj\Debug\Saint.Resources.resources
 C:\Users\PC\source\repos\Saint\obj\Debug\Saint.vbproj.GenerateResource.cache
 C:\Users\PC\source\repos\Saint\obj\Debug\Saint.vbproj.CoreCompileInputs.cache
-C:\Users\PC\source\repos\Saint\obj\Debug\Saint.Employee_View.resources
 C:\Users\PC\source\repos\Saint\bin\Debug\Saint.exe.config
 C:\Users\PC\source\repos\Saint\bin\Debug\Saint.exe
 C:\Users\PC\source\repos\Saint\bin\Debug\Saint.pdb
@@ -35,3 +34,13 @@ C:\Users\PC\source\repos\Saint\obj\Debug\Saint.vbproj.CopyComplete
 C:\Users\PC\source\repos\Saint\obj\Debug\Saint.exe
 C:\Users\PC\source\repos\Saint\obj\Debug\Saint.xml
 C:\Users\PC\source\repos\Saint\obj\Debug\Saint.pdb
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.Admin_View.resources
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.ECUEs_Control.resources
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.Employees_Control.resources
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.Users_Control.resources
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.UserControl1.resources
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.Faculties_Control.resources
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.Students_Control.resources
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.UEs_Control.resources
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.TuititionService_View.resources
+C:\Users\PC\source\repos\Saint\obj\Debug\Saint.Institutes_Control.resources

@@ -114,6 +114,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\ECUEs_Controller.vb" />
+    <Compile Include="Controllers\Employees_Controller.vb" />
+    <Compile Include="Controllers\Evaluations_Controller.vb" />
+    <Compile Include="Controllers\Faculties_Controller.vb" />
+    <Compile Include="Controllers\Institutes_Controller.vb" />
+    <Compile Include="Controllers\Students_Controller.vb" />
+    <Compile Include="Controllers\UEs_Controller.vb" />
+    <Compile Include="Controllers\Users_Controller.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -122,14 +130,22 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Models\Entites\ECUEs.vb" />
-    <Compile Include="Models\Entites\Employee.vb" />
+    <Compile Include="Models\Entites\Employees.vb" />
     <Compile Include="Models\Entites\Evaluations.vb" />
     <Compile Include="Models\Entites\Faculties.vb" />
     <Compile Include="Models\Entites\Institutes.vb" />
     <Compile Include="Models\Entites\Students.vb" />
     <Compile Include="Models\Entites\UEs.vb" />
     <Compile Include="Models\Entites\Users.vb" />
-    <Compile Include="Models\Entities_Manager\Class1.vb" />
+    <Compile Include="Models\Entities_Manager\ECUEs_Manager.vb" />
+    <Compile Include="Models\Entities_Manager\Employees_Manager.vb" />
+    <Compile Include="Models\Entities_Manager\Evaluations_Manager.vb" />
+    <Compile Include="Models\Entities_Manager\Faculties_Manager.vb" />
+    <Compile Include="Models\Entities_Manager\Institutes_Manager.vb" />
+    <Compile Include="Models\Entities_Manager\Manager.vb" />
+    <Compile Include="Models\Entities_Manager\Students_Manager.vb" />
+    <Compile Include="Models\Entities_Manager\UEs_Manager.vb" />
+    <Compile Include="Models\Entities_Manager\Users_Manager.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -146,10 +162,64 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Views\Employee_View.Designer.vb">
-      <DependentUpon>Employee_View.vb</DependentUpon>
+    <Compile Include="Views\SuperUser\Controls\Admin_View.Designer.vb">
+      <DependentUpon>Admin_View.vb</DependentUpon>
     </Compile>
-    <Compile Include="Views\Employee_View.vb">
+    <Compile Include="Views\SuperUser\Controls\Admin_View.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\ECUEs_Control.Designer.vb">
+      <DependentUpon>ECUEs_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\ECUEs_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Employees_Control.Designer.vb">
+      <DependentUpon>Employees_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Employees_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Evaluations_Control.Designer.vb">
+      <DependentUpon>Evaluations_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Evaluations_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Faculties_Control.Designer.vb">
+      <DependentUpon>Faculties_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Faculties_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Institutes_Control.Designer.vb">
+      <DependentUpon>Institutes_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Institutes_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Students_Control.Designer.vb">
+      <DependentUpon>Students_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Students_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\UEs_Control.Designer.vb">
+      <DependentUpon>UEs_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\UEs_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Users_Control.Designer.vb">
+      <DependentUpon>Users_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SuperUser\Controls\Users_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TuititionService\Controls\TuititionService_View.Designer.vb">
+      <DependentUpon>TuititionService_View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TuititionService\Controls\TuititionService_View.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -160,8 +230,35 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Employee_View.resx">
-      <DependentUpon>Employee_View.vb</DependentUpon>
+    <EmbeddedResource Include="Views\SuperUser\Controls\Admin_View.resx">
+      <DependentUpon>Admin_View.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SuperUser\Controls\ECUEs_Control.resx">
+      <DependentUpon>ECUEs_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SuperUser\Controls\Employees_Control.resx">
+      <DependentUpon>Employees_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SuperUser\Controls\Evaluations_Control.resx">
+      <DependentUpon>Evaluations_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SuperUser\Controls\Faculties_Control.resx">
+      <DependentUpon>Faculties_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SuperUser\Controls\Institutes_Control.resx">
+      <DependentUpon>Institutes_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SuperUser\Controls\Students_Control.resx">
+      <DependentUpon>Students_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SuperUser\Controls\UEs_Control.resx">
+      <DependentUpon>UEs_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SuperUser\Controls\Users_Control.resx">
+      <DependentUpon>Users_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TuititionService\Controls\TuititionService_View.resx">
+      <DependentUpon>TuititionService_View.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -178,7 +275,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="Views\Teacher\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
